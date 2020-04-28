@@ -1,0 +1,239 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina+2|Baloo+Paaji+2|Baloo+Tamma+2|Lato|Manrope|Montserrat|Mukta+Mahee|Noto+Sans|Noto+Sans+JP|Open+Sans|Oswald|Poppins|Raleway|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Source+Sans+Pro&display=swap');
+
+/*
+ATypewriterForMe
+*/
+@font-face {
+    font-family: ATypewriterForMe;
+    src: url(./fonts/ATypewriterForMe.ttf);
+}
+
+/*
+uncletypewriter*/
+@font-face {
+    font-family: TypeKeysFilled;
+    src: url(./fonts/uncletypewriter.ttf);
+}
+
+/*
+1942 report
+*/
+@font-face {
+    font-family: "1942Report";
+    src: url(./fonts/1942_report.ttf);
+}
+
+@font-face {
+    font-family: TypeKeysFilled;
+    src: url(./fonts/Type_Keys_Filled.ttf);
+}
+
+@font-face {
+    font-family: DevilBreezeLight;
+    src: url(./fonts/stencil/Devil_Breeze_Light.ttf);
+}
+
+
+@font-face {
+    font-family: HammerKeys;
+    src: url(./fonts/HammerKeys.ttf);
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+
+@font-face {
+    font-family: VTPortableRemington;
+    src: url(./fonts/VTPortableRemington.ttf);
+}
+
+/*
+1942 report
+butterbrotpapier
+
+WBXflack
+
+Typewriterhand
+The X-Files
+WriterLine
+
+StitchyTimes
+LightFingers
+Type Keys
+Type right!
+TELETYPE 1945-1985
+SENTA Schreibmaschine
+
+ Old newspaper font
+
+ COURIERTXT
+ BaltimoreTypewriterBold Beveled
+ VTPortableRemingto
+ HammerKeys
+ */
+
+
+.content {
+    font-size: 20px;
+    text-align: left;
+    padding: 30px 10%;
+
+}
+
+.punjabi {
+    animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+.baloo-paaji-two {
+    font-family: "Baloo Paaji 2";
+    font-size: 20px;
+}
+
+
+.VTPortableRemington {
+    font-family: "VTPortableRemington";
+    font-size: 20px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.manrope {
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.baloobhainatwo {
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.notosansjp {
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.baloo-tamma-two {
+    font-family: 'Baloo Tamma 2', cursive;
+
+}
+
+.source-sans-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.noto-sans {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.roboto-slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.mukta-mahee {
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+
+
+
+
+
