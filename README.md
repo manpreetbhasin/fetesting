@@ -11,5 +11,5 @@ Deployed URL : https://fetesting.herokuapp.com/
   - Font library : https://fonts.webtoolhub.com/
 
 04/2020
-    - Added [mini.css]('https://minicss.org/docs') : will do most of work as this as backup. 
+    - Added https://minicss.org/docs : will do most of work as this as backup. 
     
