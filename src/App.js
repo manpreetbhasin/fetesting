@@ -3,6 +3,7 @@ import Select from 'react-select'
 
 import './App.css';
 import './slider.css';
+import 'mini.css'
 
 export default class App extends React.Component {
     options = [
@@ -26,10 +27,10 @@ export default class App extends React.Component {
 
     handleKeyPress(e) {
         console.log(e.charCode);
-        if (e.charCode == 13) {
+        if (e.charCode === 13) {
             alert('Enter... (KeyPress, use charCode)');
         }
-        if (e.keyCode == 13) {
+        if (e.keyCode === 13) {
             alert('Enter... (KeyDown, use keyCode)');
         }
     }
